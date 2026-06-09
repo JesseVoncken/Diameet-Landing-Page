@@ -21,9 +21,8 @@
 /* Load Helvetica Compressed if available locally (place fonts in assets/fonts/) */
 @font-face {
     font-family: 'Helvetica Compressed';
-    src: url('../assets/fonts/HelveticaCompressed.woff2') format('woff2'),
-         url('../assets/fonts/HelveticaCompressed.woff') format('woff');
-    font-weight: 800 800;
+    src: url('../assets/fonts/helvetica-compressed.otf') format('opentype');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
